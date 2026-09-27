@@ -2,6 +2,8 @@
 
 **Simulation-based reinforcement learning for adaptive crop scouting on real drone-mapped Vidalia onion fields.**
 
+*Keywords: reinforcement learning · agricultural robotics · crop scouting · precision agriculture · farm-ng Amiga · onion (Allium cepa) · NDVI · plant phenotyping · Intel RealSense D455 · drone mapping (DJI Mavic 3M) · active sensing · simulation*
+
 A farm-ng Amiga robot drives a fixed route along onion beds and measures plants: **height** with an Intel RealSense D455, and **NDVI** with a red + NIR camera. A lab protocol requires at least one plant in every 10-ft block. Beyond that, every extra plant costs time.
 
 This project learns **how much to measure where**. At every block the policy picks quick or careful and how many of the block's 6 plants (1–6). It trades map accuracy against robot time:

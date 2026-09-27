@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Scout Smarter: Learning Where to Measure in Onion Fields with a farm-ng Amiga"
+abstract: >-
+  Simulation-based reinforcement learning for adaptive robotic crop scouting. A farm-ng Amiga
+  robot scouts Vidalia onion fields (plant height with an Intel RealSense D455, NDVI with a red +
+  NIR camera) under a fixed sampling protocol; a policy trained by simulation-based policy
+  iteration with common random numbers decides how many plants to measure in each 10-ft block,
+  trading map accuracy against robot time, on real drone-mapped (DJI Mavic 3M) onion fields.
+authors:
+  - family-names: Niam
+    given-names: Saqline
+type: software
+repository-code: "https://github.com/saqlineniam/-RL-crop-scouting-system-for-the-farm-ng-Amiga-on-onion-filed"
+keywords:
+  - reinforcement learning
+  - agricultural robotics
+  - crop scouting
+  - precision agriculture
+  - farm-ng Amiga
+  - onion
+  - Vidalia onion
+  - NDVI
+  - plant phenotyping
+  - Intel RealSense D455
+  - drone mapping
+  - DJI Mavic 3M
+  - simulation
+  - active sensing
+  - policy iteration
+date-released: "2026-09-27"

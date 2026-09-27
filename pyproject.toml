@@ -5,7 +5,9 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "amiga-scout"
 version = "0.1.0"
-description = "RL brain (HAM-PPO style) for the farm-ng Amiga scouting real Vidalia onion fields"
+description = "Reinforcement learning for adaptive robotic crop scouting: a farm-ng Amiga learns where to measure in drone-mapped onion fields"
+authors = [{ name = "Saqline Niam" }]
+keywords = ["reinforcement learning", "agricultural robotics", "crop scouting", "precision agriculture", "farm-ng Amiga", "onion", "NDVI", "plant phenotyping", "simulation"]
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -23,6 +25,9 @@ dependencies = [
     "rasterio",
     "pyshp",
 ]
+
+[project.urls]
+Repository = "https://github.com/saqlineniam/-RL-crop-scouting-system-for-the-farm-ng-Amiga-on-onion-filed"
 
 [project.optional-dependencies]
 dev = ["pytest", "pyflakes"]
