@@ -1,4 +1,4 @@
-# Scout Smarter: Learning Where to Measure in Onion Fields with a farm-ng Amiga
+# Learning Where to Measure in Onion Fields with a farm-ng Amiga
 
 **Simulation-based reinforcement learning for adaptive crop scouting on real drone-mapped Vidalia onion fields.**
 
