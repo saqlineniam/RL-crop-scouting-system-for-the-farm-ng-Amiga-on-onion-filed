@@ -118,7 +118,7 @@ These are the lessons of this project, each backed by an experiment described in
 
 ## Data availability
 
-The drone survey, the extracted robot-view maps (`data/*.npz`, `data/geometry.json`) and the trained models are **not included in this repository**. For access to the data, please contact **Saqline Niam** (saqlineniam@gmail.com).
+The drone survey, the extracted robot-view maps (`data/*.npz`, `data/geometry.json`) and the trained models are **not included in this repository**. For access to the data, please contact **Saklain Niam** (saqlineniam@gmail.com).
 
 All code is included. With the data in place, `python -m amiga_scout extract-all` rebuilds the maps, and every result above can be reproduced with the commands below. Without the data, the simulator still runs on synthetic fields (`--field sq10`), and the tests that need real maps are skipped.
 
@@ -434,4 +434,4 @@ The design builds on HAM-PPO (Khosravi et al. 2025), Gaussian-process active sam
 
 ## Contact
 
-Saqline Niam: saqlineniam@gmail.com (data access, questions, collaboration).
+Saklain Niam: saqlineniam@gmail.com (data access, questions, collaboration).
