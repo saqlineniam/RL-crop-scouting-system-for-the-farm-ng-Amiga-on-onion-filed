@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "amiga-scout"
+version = "0.1.0"
+description = "RL brain (HAM-PPO style) for the farm-ng Amiga scouting real Vidalia onion fields"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "gymnasium",
+    "stable-baselines3",
+    "sb3-contrib",
+    "torch",
+    "scikit-learn",
+    "joblib",
+    "matplotlib",
+    "pandas",
+    "openpyxl",
+    "rasterio",
+    "pyshp",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pyflakes"]
+
+[project.scripts]
+amiga-scout = "amiga_scout.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["amiga_scout*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

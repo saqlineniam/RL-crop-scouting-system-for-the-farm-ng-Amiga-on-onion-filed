@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+# trained models and checkpoints are large - keep them out of version control
+models/*
+!models/.gitkeep
+
+# the field data are not shared publicly - contact the author (see README, "Data availability")
+data/*
+!data/README.md
+figures/robot_view_maps.png
+# local notes and environments
+code.txt
+.venv/
