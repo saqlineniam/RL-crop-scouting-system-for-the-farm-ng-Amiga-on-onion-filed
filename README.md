@@ -16,14 +16,18 @@ The fields are **real**: two commercial Vidalia onion fields (30 and 23.7 acres)
 
 Best model: `onion_rl3_it3`, λ = 1. All test fields are held out: they were never used in training or to pick the model. The ± values are 95% confidence intervals of paired differences (same fields, routes and stress for every strategy).
 
-| Test | RL vs the best hand-written rule | Best rule there |
-|---|---|---|
-| Small held-out fields (5–6 acres), all 4 field types | **tie** (−0.3 to 0.0) | every plant, quick |
-| **Big held-out fields (~30 acres, never seen)**, `validate` | **+1.1 ± 0.8**, wins 83% of missions | minimum (1 plant per block) |
-| Same big fields, 576 missions, `fieldwise` | **+2.4 ± 0.4**, better on all 12 flight dates, wins 41 of 48 date × type cases | minimum |
-| Whole real fields (24–30 acres, 80% of area seen in training) | **+2.8 ± 1.8**, wins 92% | minimum |
-| Stress tests (soft soil, aged packs, wind, longer zapper) | not worse in any | every plant, quick |
-| Safety: >1,300 test missions | **0 stranded, 0 illegal actions, 0 unsampled blocks** | – |
+| Test | RL vs the best hand-written rule (score) | Best rule there | Time: best rule | Time: RL |
+|---|---|---|---|---|
+| Small held-out fields (5–6 acres), all 4 field types | **tie** (−0.3 to 0.0) | every plant, quick | 3.8 h | **3.5–3.8 h** |
+| **Big held-out fields (~30 acres, never seen)**, `validate` | **+1.1 ± 0.8**, wins 83% of missions | minimum (1 plant per block) | 5.5 h | 8.3 h |
+| Same big fields, 576 missions, `fieldwise` | **+2.4 ± 0.4**, better on all 12 flight dates, wins 41 of 48 date × type cases | minimum | 5.5 h | 9.3 h |
+| Whole real fields (24–30 acres, 80% of area seen in training) | **+2.8 ± 1.8**, wins 92% | minimum | 5.0 h | 7.2 h |
+| Stress tests (soft soil, aged packs, wind, longer zapper) | not worse in any | every plant, quick | 3.7–4.6 h | **3.4–4.0 h** |
+| Safety: >1,300 test missions | **0 stranded, 0 illegal actions, 0 unsampled blocks** | – | – | – |
+
+**Reading the time columns:**
+- **Small fields:** the RL matches "every plant" while finishing slightly sooner.
+- **Big fields:** the RL spends more time than the minimum rule (about 3 extra hours) and less than "every plant, quick", which takes 13.6 h and needs a battery swap. The extra hours buy more than they cost: +3.9 to +5.0 accuracy points, so the score (accuracy − 1 × hours) comes out ahead.
 
 **Where the RL shines: big fields, where no fixed rule is right.** On a 30-acre field:
 - the minimum rule is fast (5.5 h) but misses stress;
