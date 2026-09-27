@@ -8,7 +8,7 @@ This project learns **how much to measure where**. At every block the policy pic
 
 > **SCORE = ACCURACY (0–100) − λ × mission hours**   (λ = value of one robot hour; λ = 1 here)
 
-The fields are **real**: two commercial Vidalia onion fields (30 and 23.7 acres), mapped by a DJI Mavic 3M on six dates in 2024 and turned into what the robot would see. The policy is trained by **simulation-based policy iteration with common random numbers**, after on-policy PPO (HAM-PPO) failed on this problem.
+The fields are **real**: two commercial onion fields (30 and 23.7 acres), mapped by a DJI Mavic 3M on six dates in 2024 and turned into what the robot would see. The policy is trained by **simulation-based policy iteration with common random numbers**, after on-policy PPO (HAM-PPO) failed on this problem.
 
 ---
 
