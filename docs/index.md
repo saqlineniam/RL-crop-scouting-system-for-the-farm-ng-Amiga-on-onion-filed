@@ -20,7 +20,7 @@ A policy trained in simulation decides **how many plants to measure where**, tra
 - **The policy:** an ensemble of networks learns the value of each choice, blended by field size.
 
 ## Links
-- Code, full results and documentation: [GitHub repository](https://github.com/saqlineniam/-RL-crop-scouting-system-for-the-farm-ng-Amiga-on-onion-filed)
+- Code, full results and documentation: [GitHub repository](https://github.com/saqlineniam/RL-crop-scouting-system-for-the-farm-ng-Amiga-on-onion-filed)
 - [Design summary](PROJECT_SUMMARY.md)
 - [References](references.md)
 

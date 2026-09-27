@@ -11,7 +11,7 @@ authors:
   - family-names: Niam
     given-names: Saklain
 type: software
-repository-code: "https://github.com/saqlineniam/-RL-crop-scouting-system-for-the-farm-ng-Amiga-on-onion-filed"
+repository-code: "https://github.com/saqlineniam/RL-crop-scouting-system-for-the-farm-ng-Amiga-on-onion-filed"
 keywords:
   - reinforcement learning
   - agricultural robotics
