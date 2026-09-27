@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "amiga-scout"
 version = "0.1.0"
 description = "Reinforcement learning for adaptive robotic crop scouting: a farm-ng Amiga learns where to measure in drone-mapped onion fields"
-authors = [{ name = "Saqline Niam" }]
+authors = [{ name = "Saklain Niam" }]
 keywords = ["reinforcement learning", "agricultural robotics", "crop scouting", "precision agriculture", "farm-ng Amiga", "onion", "NDVI", "plant phenotyping", "simulation"]
 readme = "README.md"
 requires-python = ">=3.10"

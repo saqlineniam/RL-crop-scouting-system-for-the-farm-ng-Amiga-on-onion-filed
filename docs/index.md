@@ -1,11 +1,11 @@
 ---
-title: "Scout Smarter: RL crop scouting for the farm-ng Amiga on onion fields"
-description: "Reinforcement learning for adaptive robotic crop scouting: a farm-ng Amiga robot learns where to measure plant height and NDVI in drone-mapped Vidalia onion fields."
+title: "Learning Where to Measure: RL crop scouting for the farm-ng Amiga on onion fields"
+description: "Reinforcement learning for adaptive robotic crop scouting: a farm-ng Amiga robot learns where to measure plant height and NDVI in drone-mapped onion fields."
 ---
 
-# Scout Smarter: Learning Where to Measure in Onion Fields with a farm-ng Amiga
+# Learning Where to Measure in Onion Fields with a farm-ng Amiga
 
-**Reinforcement learning for adaptive robotic crop scouting** in precision agriculture. A **farm-ng Amiga** agricultural robot scouts **Vidalia onion** fields, measuring plant height with an **Intel RealSense D455** depth camera and plant health (**NDVI**) with a red + NIR camera. It follows a fixed sampling protocol: at least one plant in every 10-ft block.
+**Reinforcement learning for adaptive robotic crop scouting** in precision agriculture. A **farm-ng Amiga** agricultural robot scouts **onion** fields, measuring plant height with an **Intel RealSense D455** depth camera and plant health (**NDVI**) with a red + NIR camera. It follows a fixed sampling protocol: at least one plant in every 10-ft block.
 
 A policy trained in simulation decides **how many plants to measure where**, trading map accuracy against robot time. The simulator is built on **real drone maps** (DJI Mavic 3M, six flights in 2024) of two commercial onion fields.
 
@@ -24,6 +24,6 @@ A policy trained in simulation decides **how many plants to measure where**, tra
 - [Design summary](PROJECT_SUMMARY.md)
 - [References](references.md)
 
-**Keywords:** reinforcement learning, agricultural robotics, crop scouting, precision agriculture, farm-ng Amiga, onion, Vidalia onion, NDVI, plant phenotyping, RealSense D455, drone mapping, active sensing, policy iteration, simulation.
+**Keywords:** reinforcement learning, agricultural robotics, crop scouting, precision agriculture, farm-ng Amiga, onion, NDVI, plant phenotyping, RealSense D455, drone mapping, active sensing, policy iteration, simulation.
 
-Contact: Saqline Niam (saqlineniam@gmail.com).
+Contact: Saklain Niam (saqlineniam@gmail.com).
